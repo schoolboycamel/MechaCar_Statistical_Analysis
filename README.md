@@ -23,4 +23,32 @@ Mean, median, variance, and standard deviation of the suspension coil’s PSI co
 
 1. Variance of the coils is 62.29 PSI when looking at the entire population lot, variance is within the 100 PSI requirement. Lot 1 and Lot 2 ameet the  100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. Lot 3 essentially shows muchlarger variance in performance and consistency, with a variance of 170.29.
 
+## T-Tests on Suspension Coils
+
+<img width="408" alt="image" src="https://user-images.githubusercontent.com/98793962/170905748-15e91d24-9984-4aa1-b449-10e01c97a0bb.png">
+1. Assuming the significance level is of 0.05, our p-value of 0.06028 is essentially hihger, thus there is not enough evidence to support rejecting the null hypothesis. All three of these lots are statistically simillar to a presumed data set of 1500.
+
+<img width="408" alt="image" src="https://user-images.githubusercontent.com/98793962/170906571-da2d9927-3f12-49c2-80fb-b6eb02689eda.png">
+
+1. Assuming the significance level eis 0.05, lot 1 has a p-value of 1, and a sample mean of 1500. THere is not sufficient evidence to reject our null hypothesis. 
+2. Assuming the significance level is 0.05, lot 2 has a p-value of 0.06072 and a sample mean of 1500. THere is not sufficient evidence to reject our null hypothesis. 
+3. Assumming the significance level is 0.95, lot 3 has p-value of 0.04168. This indicates that there is sufficient evidence to reject our null hypothesis. 
+
+## Study Design: MechaCar vs Competition
+Metrics
+
+Current Price (Selling): Dependent Variable
+Safety Feature Rating: Independent Variable
+Drive Package : Independent Variable
+Engine (Electric, Hybrid, Gasoline / Conventional): Independent Variable
+Resale Value: Independent Variable
+Average Annual Cost of ownership (Maintenance): Independent Variable
+MPG (Gasoline Efficiency): Independent Variable
+Hypothesis: Null and Alternative
+After determining which factors are key for the MechaCar's genre:
+
+Null Hypothesis (Ho): MechaCar is priced correctly based on its performance of key factors for its genre.
+Alternative Hypothesis (Ha): MechaCar is NOT priced correctly based on performance of key factors for its genre.
+Statistical Tests
+A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price (it may be all of them!)
 
